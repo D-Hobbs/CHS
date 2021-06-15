@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="nav_bar">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a class="cta" href="#"><button>Book a Clean</button></a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Become a Cleaner</a></li>
+                </ul>
+            </nav>
+    </div>
+        
+    </header>
+
+    <main>
+
+
+        <!--carousel-->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/kitchen3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouselhd">TRUSTED & EXPERIENCED CLEANERS</h5>
+                 
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/livingroom-100.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouselhd">TOP-NOTCH CLEANING SERVICES</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/bathroom-100.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouselhd">AFFORDABLE SERVICES</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+        <!--Call to action-->
+      <div class="calltoaction">
+        <h2 class="actiontext">BOOK ONLINE, & WE WILL TAKE CARE OF THE REST</h2>
+        <div class="ctabtns">
+            <a class="bookbtn" href="#"><button>Book a Clean</button></a>
+            <a href="#"><button class="servicesbtn">Our Services</button></a>
+      </div>
+        </div>
+    
+        <div class="process">
+            <h2 class="processtext"> IT'S SIMPLE!</h2>
+            <ul class="processlist">
+                <li id="pli">Book Online</li>
+                <li id="pli">Enter Your Details</li>
+                <li id="pli">Get served!</li>
+            </ul>
+            
+        </div>
+            
+    <!--Cards for bundles-->    
+            
+        <div class="servicecards">
+            <!--Card1-->
+            <div class="cardbox1 servcard">
+                <div class="cardelipse1">
+                    <svg width="50" height="50" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="50" height="50" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="scale(0.00195312)"/>
+                        </pattern>
+                        <image id="image0" width="512" height="512" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                        </svg>
+                        
+                    <p>RESIDENTIAL SERVICE</p>
+                </div>
+                <ul class="servicedetails">
+                    <li>Professional </li>
+                    <li>Professional </li>
+                    <li>24/7 Support</li>
+                    <li>Professional</li>
+                </ul>
+                <p class = "price1">£12/hr</p>
+                <a class="order_btn1" id="order_btn1" href="#"><button>Book Now!!</button></a>
+            </div>
+            <!--Card2-->
+            <div class="cardbox2 servcard">
+                <div class="cardelipse2">
+                    <svg width="70" height="70" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.2544 57.4693C15.4824 61.2474 13.6979 66.4994 14.5125 71.43C19.4432 72.2375 24.6916 70.4506 28.4672 66.6797C32.2392 62.9017 34.0237 57.6497 33.2091 52.719C28.2785 51.9116 23.0301 53.6985 19.2544 57.4693V57.4693Z" fill="#FCEA2B"/>
+                        <path d="M38.19 54.7523C37.9605 55.906 37.3944 56.9658 36.5631 57.7981C36.1584 58.2012 35.6978 58.5439 35.1955 58.8158C37.7586 62.3237 39.6591 66.2705 40.8034 70.4616C41.6515 69.721 42.4649 68.9351 43.2425 68.1109C45.5377 65.6681 47.4876 62.9224 49.0379 59.9505C50.5286 57.0684 51.6307 54.0014 52.3155 50.8297C47.8614 53.1649 43.0323 54.505 38.19 54.7523V54.7523Z" fill="#61B2E4"/>
+                        <path d="M17.8247 42.7C17.0005 43.4764 16.2158 44.2886 15.4716 45.1343C19.666 46.2715 23.6172 48.1655 27.1306 50.7231C27.4018 50.2286 27.7398 49.7747 28.1387 49.3758C28.9689 48.5472 30.0251 47.9821 31.175 47.7513C31.4258 42.9138 32.7708 38.0883 35.1071 33.6402L35.1143 33.627C31.9411 34.3112 28.8725 35.4129 25.9887 36.9034C23.0155 38.4538 20.2686 40.4041 17.8247 42.7Z" fill="#92D3F5"/>
+                        <path d="M41.5917 24.7813C35.3436 31.0521 31.5978 39.3105 31.1726 47.754C32.1356 47.5588 33.1319 47.6048 34.0728 47.8878C35.0137 48.1708 35.87 48.6821 36.5655 49.3761C37.2631 50.0739 37.7763 50.9341 38.059 51.8794C38.3417 52.8247 38.3851 53.8255 38.1852 54.7917C46.6371 54.3605 54.8979 50.6075 61.1687 44.3522C69.1858 36.322 72.9758 25.1611 71.2426 14.6822C69.1538 14.3438 67.0359 14.2185 64.9216 14.3084C56.3527 14.6572 47.9486 18.4292 41.5917 24.7801V24.7813V24.7813ZM53.8336 24.1482C54.89 23.092 56.3226 22.4986 57.8165 22.4986C59.3103 22.4986 60.743 23.092 61.7994 24.1482C62.3228 24.6709 62.738 25.2915 63.0214 25.9747C63.3048 26.658 63.4508 27.3903 63.4511 28.13C63.4513 28.8697 63.3057 29.6021 63.0227 30.2855C62.7397 30.9689 62.3248 31.5898 61.8018 32.1128H61.8006C60.7353 33.1234 59.3176 33.6783 57.8493 33.6591C56.381 33.64 54.9782 33.0484 53.9396 32.0103C52.9011 30.9722 52.3088 29.5697 52.289 28.1014C52.2692 26.6331 52.8234 25.2151 53.8336 24.1494V24.1482Z" fill="#EA5A47"/>
+                        <path d="M31.6982 62.1554C30.6465 63.3348 29.438 64.3645 28.1065 65.2156C23.9379 67.8708 18.8794 68.6006 14.4408 67.19C14.2617 68.6185 14.2856 70.0459 14.5125 71.4303C19.4432 72.2377 24.6916 70.4508 28.4672 66.6788C29.7819 65.3558 30.8731 63.8281 31.6982 62.1554V62.1554Z" fill="#F1B31C"/>
+                        <path d="M31.2992 46.2093C31.2598 46.7205 31.2323 47.2318 31.218 47.7418C32.1806 47.5547 33.1744 47.6083 34.1113 47.8978C35.0482 48.1872 35.8991 48.7035 36.5884 49.4009C37.2778 50.0983 37.7842 50.9551 38.0628 51.8953C38.3413 52.8355 38.3834 53.8299 38.1852 54.7902C46.6359 54.359 54.8955 50.6061 61.1663 44.3508C62.9468 42.5542 64.5375 40.5789 65.913 38.4562C64.3006 39.9244 62.561 41.2467 60.7148 42.4074C51.6872 48.0332 40.7748 49.4451 31.298 46.2093H31.2992V46.2093Z" fill="#D22F27"/>
+                        <path d="M28.7133 57.9915C29.7524 57.4696 30.7677 56.895 31.7591 56.2739C34.6893 54.4341 37.3538 52.2016 39.6783 49.6388L39.6806 49.6352C41.9217 47.1452 43.8227 44.369 45.3339 41.3792C45.407 41.2354 45.4497 41.078 45.4594 40.917C41.3994 40.0175 27.7266 53.1612 28.7133 57.9915V57.9915Z" fill="#61B2E4"/>
+                        <path d="M57.8171 35.224C53.9041 35.224 50.7209 32.042 50.7209 28.129C50.7209 24.216 53.9041 21.0364 57.8171 21.0364C61.7301 21.0364 64.9133 24.2184 64.9133 28.1302C64.9133 32.042 61.7301 35.224 57.8171 35.224ZM57.8171 23.4002C56.563 23.4014 55.3606 23.9002 54.4739 24.787C53.5871 25.6737 53.0883 26.8761 53.0871 28.1302C53.0883 29.3843 53.5871 30.5866 54.4739 31.4734C55.3606 32.3602 56.563 32.8589 57.8171 32.8602C59.0712 32.8589 60.2735 32.3602 61.1603 31.4734C62.0471 30.5866 62.5458 29.3843 62.5471 28.1302C62.5458 26.8761 62.0471 25.6737 61.1603 24.787C60.2735 23.9002 59.0712 23.4014 57.8171 23.4002V23.4002Z" fill="black"/>
+                        <path d="M24.6689 53.8252C22.6478 54.6823 20.8098 55.919 19.2544 57.4682C15.4824 61.2475 13.6979 66.4982 14.5125 71.4289C19.4432 72.2364 24.6916 70.4495 28.4672 66.6786C30.0177 65.124 31.2556 63.2864 32.1138 61.2654" stroke="black" stroke-width="0.48725" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.8247 42.7001C17.0005 43.4765 16.2158 44.2887 15.4716 45.1343C19.666 46.2715 23.6172 48.1656 27.1306 50.7232C27.4018 50.2287 27.7398 49.7748 28.1387 49.3758C28.9689 48.5473 30.0251 47.9822 31.175 47.7514C31.4258 42.9139 32.7708 38.0883 35.1071 33.6402L35.1143 33.6271C31.9411 34.3113 28.8725 35.413 25.9887 36.9034C23.0155 38.4539 20.2686 40.4042 17.8247 42.7001ZM17.8247 42.7001V42.7001V42.7001Z" stroke="black" stroke-width="0.48725" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M38.19 54.7523C37.9605 55.906 37.3944 56.9658 36.5631 57.7981C36.1584 58.2012 35.6978 58.5439 35.1955 58.8158C37.7586 62.3237 39.6591 66.2705 40.8034 70.4616C41.6515 69.721 42.4649 68.9351 43.2425 68.1109C45.5377 65.6681 47.4876 62.9224 49.0379 59.9505C50.5286 57.0684 51.6307 54.0014 52.3155 50.8297C47.8614 53.1649 43.0322 54.505 38.19 54.7523V54.7523Z" stroke="black" stroke-width="0.48725" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M38.0192 51.7732C38.3417 52.8315 38.3178 53.7942 38.1828 54.7892C46.6347 54.3568 54.8967 50.6038 61.1675 44.3473C69.1822 36.3195 72.9734 25.161 71.2426 14.6845C60.7662 12.9693 49.6136 16.7652 41.5929 24.7787C35.3436 31.0508 31.5978 39.308 31.1726 47.7527C32.2802 47.5317 33.4278 47.6308 34.4812 48.0382" stroke="black" stroke-width="0.48725" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M44.2804 40.845C41.3826 42.3085 38.6916 44.1497 36.2777 46.3204C33.794 48.5714 31.6303 51.1519 29.8468 53.9899C29.2463 54.9466 28.6915 55.9311 28.1841 56.9402" stroke="black" stroke-width="0.48725" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        
+                    <p>DEEP CLEANING</p>
+                </div>
+                <ul class="servicedetails">
+                    <li>Professional </li>
+                    <li>Professional </li>
+                    <li>24/7 Support</li>
+                    <li>Professional</li>
+                </ul>
+                <p class = "price2">£19/hr</p>
+                <a class="order_btn2" id="order_btn" href="#"><button>Book Now!!</button></a>
+            </div>
+            <!--Card3-->
+            <div class="cardbox3 servcard">
+                <div class="cardelipse3">
+                    <svg width="50" height="50" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="89" height="89" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="scale(0.005)"/>
+                        </pattern>
+                        <image id="image0" width="200" height="200" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                        </svg>                      
+                        
+                    <p>OFFICE CLEANING</p>
+                </div>
+                <ul class="servicedetails">
+                    <li>Professional </li>
+                    <li>Professional </li>
+                    <li>24/7 Support</li>
+                    <li>Professional</li>
+                </ul>
+                <p class = "price3">£22/hr</p>
+                <a class="order_btn3" id="order_btn3" href="#"><button>Book Now!!</button></a>
+            </div>
+        </div>
+        <!--Testimonials-->
+        <div class="testimonials">
+            <div class="test1">
+                <img src="/img/natasha_joe.jpg" class="testimg1">
+                <p class="testname1">NATASHA JOE</p>
+                <p class="testtxt1">Great job! I loved the customer service, they were so responsive and professional. They sent specialist cleaners to my house, well....my home was up-side-down and now its sparkling clean :) </p>
+                <svg class = "starsvg" width="183" height="29" viewBox="0 0 183 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 1.61804L18.5044 10.8647L18.6167 11.2102H18.98H28.7025L20.8368 16.925L20.5429 17.1385L20.6552 17.484L23.6596 26.7307L15.7939 21.016L15.5 20.8024L15.2061 21.016L7.34039 26.7307L10.3448 17.484L10.4571 17.1385L10.1632 16.925L2.29747 11.2102H12.02H12.3833L12.4956 10.8647L15.5 1.61804Z" fill="#FFE600" stroke="black"/>
+                    <path d="M91.5 1.61804L94.5044 10.8647L94.6167 11.2102H94.98H104.703L96.8368 16.925L96.5429 17.1385L96.6552 17.484L99.6596 26.7307L91.7939 21.016L91.5 20.8024L91.2061 21.016L83.3404 26.7307L86.3448 17.484L86.4571 17.1385L86.1632 16.925L78.2975 11.2102H88.02H88.3833L88.4956 10.8647L91.5 1.61804Z" fill="#FFE600" stroke="black"/>
+                    <path d="M53.5 1.61804L56.5044 10.8647L56.6167 11.2102H56.98H66.7025L58.8368 16.925L58.5429 17.1385L58.6552 17.484L61.6596 26.7307L53.7939 21.016L53.5 20.8024L53.2061 21.016L45.3404 26.7307L48.3448 17.484L48.4571 17.1385L48.1632 16.925L40.2975 11.2102H50.02H50.3833L50.4956 10.8647L53.5 1.61804Z" fill="#FFE600" stroke="black"/>
+                    <path d="M129.5 1.61804L132.504 10.8647L132.617 11.2102H132.98H142.703L134.837 16.925L134.543 17.1385L134.655 17.484L137.66 26.7307L129.794 21.016L129.5 20.8024L129.206 21.016L121.34 26.7307L124.345 17.484L124.457 17.1385L124.163 16.925L116.297 11.2102H126.02H126.383L126.496 10.8647L129.5 1.61804Z" fill="#FFE600" stroke="black"/>
+                    <path d="M167.5 1.61804L170.504 10.8647L170.617 11.2102H170.98H180.703L172.837 16.925L172.543 17.1385L172.655 17.484L175.66 26.7307L167.794 21.016L167.5 20.8024L167.206 21.016L159.34 26.7307L162.345 17.484L162.457 17.1385L162.163 16.925L154.297 11.2102H164.02H164.383L164.496 10.8647L167.5 1.61804Z" fill="#FFE600" stroke="black"/>
+                    </svg>
+                    
+            </div>
+        </div>
+       <!--Whychooseus-->
+       <div class="wcu">
+           <!--card1-->
+           <div class="wcucard1">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.4353 33.2344V26.0218C26.4353 23.6812 28.1206 21.7781 30.1971 21.7781H44.0118V17.2844C44.0118 15.1531 42.8236 13.3719 41.1971 12.7906V12.7937L36.3412 12.75L36.2824 12.5687H14.4853L14.0706 12.7187L6.38239 12.7125L6.36768 12.6469C4.49709 13.0219 2.99121 14.8219 2.99121 17.1375V41.9906C2.99121 44.5906 4.89709 46.85 7.08239 46.85H40.0647C42.25 46.85 44.0147 44.7375 44.0147 42.1375V37.5969H30.2C28.1236 37.5969 26.4353 35.575 26.4353 33.2344V33.2344Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.047 25.1907H32.3206C30.7647 25.1907 29.5029 26.6532 29.5029 28.4563V31.0063C29.5029 32.8063 30.7647 34.2688 32.3206 34.2688H47.047C48.6029 34.2688 49.8676 32.8063 49.8676 31.0063V28.4563C49.8676 26.65 48.6029 25.1907 47.047 25.1907V25.1907ZM38.3265 31.3H32.2618V28.125H38.3265V31.3Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4883 12.5688L33.9912 5.47817L36.2853 12.5688H40.0647C40.4618 12.5688 40.8383 12.6594 41.2 12.7875L37.1147 0.159424L6.02649 11.1625L6.37061 12.65C6.60296 12.6032 6.8412 12.5719 7.08237 12.5719H14.4883V12.5688V12.5688Z" fill="black"/>
+                </svg>             
+                <p class="wcuhead">VALUE FOR MONEY</p>
+                <P class="wcutxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur ullam, culpa, aliquam et voluptas voluptatibus velit eveniet inventore aut reiciendis totam voluptatum delectus distinctio. Molestiae incidunt tempora animi tempore?</P>
+           </div>
+
+            <!--card2-->
+            <div class="wcucard2">
+                <svg width="46" height="44" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.33335 39.75H6.41669V12.6666H4.33335C3.22828 12.6666 2.16848 13.1056 1.38708 13.887C0.605674 14.6684 0.166687 15.7282 0.166687 16.8333V35.5833C0.166687 36.6884 0.605674 37.7482 1.38708 38.5296C2.16848 39.311 3.22828 39.75 4.33335 39.75ZM37.6667 12.6666H23.0834L25.4209 5.64996C25.6294 5.02374 25.6862 4.35693 25.5866 3.70445C25.487 3.05197 25.2338 2.43249 24.8479 1.89703C24.462 1.36158 23.9543 0.925464 23.3669 0.624617C22.7794 0.323771 22.1288 0.166797 21.4688 0.166626H21L10.5834 11.4958V39.75H33.5L41.65 21.8416L41.8334 21V16.8333C41.8334 15.7282 41.3944 14.6684 40.613 13.887C39.8316 13.1056 38.7718 12.6666 37.6667 12.6666V12.6666Z" fill="black"/>
+                    </svg>
+                                 
+                <p class="wcuhead">PROFESSIONAL SERVICE</p>
+                <P class="wcutxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur ullam, culpa, aliquam et voluptas voluptatibus velit eveniet inventore aut reiciendis totam voluptatum delectus distinctio. Molestiae incidunt tempora animi tempore?</P>
+            </div>
+
+            <!--card3-->
+           <div class="wcucard3">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 14.5833V6.25H4.16669V43.75H45.8334V14.5833H25ZM12.5 39.5833H8.33335V35.4167H12.5V39.5833ZM12.5 31.25H8.33335V27.0833H12.5V31.25ZM12.5 22.9167H8.33335V18.75H12.5V22.9167ZM12.5 14.5833H8.33335V10.4167H12.5V14.5833ZM20.8334 39.5833H16.6667V35.4167H20.8334V39.5833ZM20.8334 31.25H16.6667V27.0833H20.8334V31.25ZM20.8334 22.9167H16.6667V18.75H20.8334V22.9167ZM20.8334 14.5833H16.6667V10.4167H20.8334V14.5833ZM41.6667 39.5833H25V35.4167H29.1667V31.25H25V27.0833H29.1667V22.9167H25V18.75H41.6667V39.5833ZM37.5 22.9167H33.3334V27.0833H37.5V22.9167ZM37.5 31.25H33.3334V35.4167H37.5V31.25Z" fill="black"/>
+                </svg>
+                
+                
+            <p class="wcuhead">24/7 CUSTOMER SERVICE</p>
+                <P class="wcutxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur ullam, culpa, aliquam et voluptas voluptatibus velit eveniet inventore aut reiciendis totam voluptatum delectus distinctio. Molestiae incidunt tempora animi tempore?</P>
+           </div>
+       </div>
+       <!--Contact us-->
+       
+        <form class="contactform">
+            <p class="luam">LEAVE US A MESSAGE</p>
+            <input type="text" class="name" placeholder="Enter Your Name">
+            <input type="mail" class="mail" placeholder="Enter your email address">
+            <textarea class="message" placeholder="Type your message here..."> </textarea>
+            <input type="submit" value="Send" class="submit">
+            <div class="contactdetails">
+                <p class="contactus">CONTACTS</p>
+                <p class="phonenumber">+44123456789</p>
+                <p class="emailaddress">info@cleanhomeservies.org</p>
+            </div>
+       </form>
+       
+    </main>
+
+    <footer>
+            <!--footer1-->
+            <div class="ftr1">
+                <ul class="ftrli">
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+            <!--footer2-->
+            <div class="ftr2">
+                <ul class="ftrli">
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+            <!--footer3-->
+            <div class="ftr3">
+                <ul class="ftrli">
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                    <li class="ftrit">Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

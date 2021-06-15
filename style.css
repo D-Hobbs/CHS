@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.nav_bar {
+    box-sizing: border-box;
+    background-color: #6C9F80;
+    width: 100%;
+    height: 12vh;
+    padding: 10px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li, a, button {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    height: 80px;
+}
+
+.nav_links {
+    list-style: none;
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #b44848;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+main {
+    font-family: "montserrat", sans-serif;
+    display: grid;
+    grid-template-areas:
+        "cr cr cr cr cr cr cr cr cr cr cr cr"
+        "o o o o o o o o o o o o"
+        "p p p p p p p p p p p p"
+        ". . c c c c c c c c . ."
+        ". . s s s s s s s s . ."
+        ". . t t t t t t t t . ."
+        ". . w w w w w w w w . ."
+        ". . fm fm fm fm fm fm fm fm . .";
+}
+
+.carousel {
+    grid-area: cr;
+    width: 100%;
+}
+
+.w-100 {
+    opacity: 0.9;
+}
+
+.carouselhd {
+    font-size: 3vw;
+    font-weight: bold;
+    color: honeydew;
+    
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.calltoaction {
+    grid-area: o;
+    background-color: #6C9F80;
+    height: 30vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.actiontext {
+    color: honeydew;
+    text-align: center;
+}
+
+.ctabtns {
+    display: flex;
+    justify-content: center;
+}
+
+.servicesbtn {
+    background-color: #FFAD4C;
+
+}
+
+.bookbtn, .servicesbtn {
+    margin: 20px;
+}
+
+.process {
+    grid-area: p;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 100px 50px 100px;
+}
+
+.processlist {
+    list-style: none;
+}
+
+#pli {
+    color: #000000;
+}
+
+.servicecards {
+    grid-area: c;
+    background-color: #F3F3F3;
+    margin: 10px 0 10px 0;
+    padding: 100px;
+    width: 100%;
+
+    display: grid;
+    grid-template-areas: 
+        ". . s1 s1 . s2 s2 . s3 s3 . .";
+    
+}
+
+.cardbox1 {
+    grid-area: s1;
+}
+
+.cardbox2 {
+    grid-area: s2;
+}
+
+.cardbox3 {
+    grid-area: s3;
+}
+
+.cardbox1, .cardbox3 {
+    background-color: #6C9F80;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cardbox2 {
+    background-color: #FF4C4C;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.order_btn1, .order_btn2, .order_btn3 {
+    align-self: center;
+}
+
+.price1, .price2, .price3 {
+    align-self: center;
+    font-size: 28px;
+    color: honeydew;
+    margin: 0px 0px 5px 0px;
+}
+
+.cardelipse1 {
+    border-radius: 50%;
+    background-color: honeydew;
+    height:200px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardelipse2 {
+    border-radius: 50%;
+    background-color: honeydew;
+    height:200px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardelipse3 {
+    border-radius: 50%;
+    background-color: honeydew;
+    height:200px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonials {
+    grid-area: t;
+    padding: 100px;    
+}
+
+.test1 {
+    display: grid;
+    grid-template-areas:
+        ". . t1 t1 . tt tt tt tt tt . ."
+        ". . t1 t1 . tx tx tx tx tx . ."
+        ". . t1 t1 . sv sv sv sv sv . .";
+    
+}
+
+.testimg1 {
+    grid-area: t1;
+    
+    width: 235px;
+    height: 235px;
+}
+
+.testname1 {
+    grid-area: tt;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.testtxt1 {
+    grid-area: tx;
+}
+
+.starsvg {
+    grid-area: sv;
+}
+
+.testname1, .testtxt1, .starsvg {
+    margin-left: 100px;
+}
+
+.wcu {
+    background-color: #B1FFC8;
+    grid-area: w;
+    margin: 10px 0 10px 0;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+
+    display: grid;
+    grid-template-areas: 
+        ". . w1 w1 . w2 w2 . w3 w3 . .";
+}
+
+.wcucard1 {
+    grid-area: w1;
+}
+
+.wcucard2 {
+    grid-area: w2;
+    margin: auto 10vw auto 10vw;
+}
+
+.wcucard3 {
+    grid-area: w3;
+}
+
+
+.wcucard1, .wcucard2, .wcucard3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wcuhead {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contactform {
+    grid-area: fm;
+    margin: 100px 0 100px 0;
+    width: 100%;
+    
+    display: grid;
+    grid-template-areas: 
+    ". . lu lu lu lu lu lu lu lu . ."
+    ". . fm1 fm1 fm11 fm11 cn1 cn1 cn1 cn1 . ."
+    ". . fm2 fm2 fm2 fm2 cn2 cn2 cn2 cn2 . ."
+    ". . . . . fm3 cn3 cn3 cn3 cn3 . .";
+
+}
+.luam {
+    grid-area: lu;
+    text-align: center;
+    font-size: 28px;
+}
+
+.name {
+    grid-area: fm1;
+    margin: 10px 10px 10px 0px;
+}
+.mail {
+    grid-area: fm11;
+    margin: 10px 0px 10px 10px;
+}
+
+.message {
+    grid-area: fm2;
+}
+
+.submit {
+    grid-area: fm3;
+    margin: 10px 0 10px 0;
+}
+
+.contactdetails {
+    grid-area: cn2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactus {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #BBBBBB;
+    padding: 100px;
+    width: 100%;
+
+    font-family: "montserrat", sans-serif;
+    display: grid;
+    grid-template-areas: 
+        ". . f1 f1 . f2 f2 . f3 f3 . .";
+}
+
+
+.ftr1 {
+    grid-area: f1;
+}
+
+.ftr2 {
+    grid-area: f2;
+}
+
+.ftr3 {
+    grid-area: f3;
+}
+
+.ftrli {
+    list-style: none;
+
+}
+
+.ftrit {
+    color: #000000;
+}
+
+
